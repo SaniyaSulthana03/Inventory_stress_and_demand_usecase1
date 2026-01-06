@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # --- Load full pipeline ---
-model = joblib.load("demand_pricing_model.pkl")  # pipeline with preprocessing + model
+# model = joblib.load("demand_pricing_model.pkl")  # pipeline with preprocessing + model
+model=joblib.load("demand_pricing_model_compressed.pkl")
 
 st.title("Demand Sensitivity & Pricing Impact Predictor")
 
